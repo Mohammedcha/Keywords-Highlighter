@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<title>Automatic Keywords Highlighter</title>
+	<script src="common.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" href="common.css" />
+</head>
+<body id="popup">
+
+<h1>Re-sKinning Keywords Highlighter</h1>
+
+<h2>Keywords</h2>
+<p>Which keywords should be highlighted?</p>
+<p><textarea id="textareaKeywords" rows="3"></textarea></p>
+
+<h2>Highlighting</h2>
+<p>What colors should be used?</p>
+<p><input id="colorForeground" type="color" /> <label for="colorForeground">Text color</label></p>
+<p><input id="colorBackground" type="color" /> <label for="colorBackground">Background color</label>
+	<em>&nbsp;</em></p>
+
+<h2>More options</h2>
+<p><input id="checkboxShowOccurrences" type="checkbox" /> <label for="checkboxShowOccurrences">Show number of found keywords in toolbar icon.</label></p>
+
+<button id="buttonSave" type="submit">Save</button> &nbsp;&nbsp;&nbsp; <button id="buttonCancel" type="reset">Cancel</button>
+
+</body>
+</html>
